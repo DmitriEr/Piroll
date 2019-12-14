@@ -203,3 +203,77 @@ a {
     cursor: pointer;
 }
 
+/* section skills */
+
+.skills {
+    background: linear-gradient(to right,  #f8f9f9 50%, #e9e9e9 50%);
+
+    padding-top: 117px;
+    padding-bottom: 150px;
+} 
+
+.skills__title {
+    font-size: 30px;
+    line-height: 84px;
+    letter-spacing: .01em;
+    color: #171717;
+} 
+
+.skills__item {
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: .1em;
+    font-style: 'Montserrat', 'Arial', sans-serif;
+    font-weight: 500;
+    color: #000000;
+
+    margin-bottom: 40px;
+
+    position: relative;
+}
+
+.skills__item span {
+    padding-left: 20px;
+}
+
+.skills__item::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0px;
+    width: 510px;
+    border-bottom: 3px solid #d8d8d8;
+}
+
+.skill-design,
+.skill-web,
+.skill-marketing {
+    position: relative;
+}
+
+.skill-design::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0px;
+    width: 335px;
+    border-bottom: 3px solid #39b4af;
+}
+
+.skill-web::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0px;
+    width: 430px;
+    border-bottom: 3px solid #39b4af;
+}
+
+.skill-marketing::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0px;
+    width: 280px;
+    border-bottom: 3px solid #39b4af;
+}
