@@ -203,6 +203,18 @@ a {
     cursor: pointer;
 }
 
+.grid-item__btn {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    margin: 0px; 
+}
+
+.grid-item__btn:hover {
+    cursor: pointer;
+    opacity: 0.5;
+} 
+
 /* section skills */
 
 .skills {
@@ -276,4 +288,46 @@ a {
     left: 0px;
     width: 280px;
     border-bottom: 3px solid #39b4af;
+}
+
+/* result */
+
+.result {
+    background-color: #10c9c3;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.result-block,
+.result-path {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.result-path {
+    width: 25%;
+}
+
+.result-description {
+    font-style: 'Montserrat', 'Arial', sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffff;
+    padding-left: 30px;  
+}
+
+.result-description__title {
+    font-size: 18px;
+    letter-spacing: .03em;
+}
+
+.result-description__text {
+    font-size: 12px;
+    letter-spacing: .1em;
+    margin: 0px;
+    text-transform: uppercase;
 }
