@@ -447,3 +447,129 @@ a {
     letter-spacing: .1em;
 }
 
+/* clients */
+
+.clients {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.clients-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.clients-iten__img {
+    width: 20%;
+
+    text-align: center;
+}
+
+/* Form */
+
+.form-wrap {
+    text-align: center;
+
+    background-color: #f5f5f5;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.form-title {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: .01em;
+    line-height: 84px;
+    color: #1d1d1d;
+
+    margin: 0px;
+}
+
+.form-subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .005em;
+    color: #787878;
+
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+.modal-inner {
+    max-width: 670px;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+}
+
+.modal-text:first-child {
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-text:nth-child(2) {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    border: 0px;
+}
+
+textarea {
+    padding-top: 10px;
+    padding-left: 10px;
+
+    font-size: 15px;
+
+    border: 0px;
+}
+
+input[type="name"],
+input[type="email"] {
+    width: 320px;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+.field {
+    resize: none;
+    width: 100%;
+}
+
+.field {
+    height: 170px;
+}
+
+button {
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #10c9c3;
+
+    font-style: 'Montserrat', 'Arial', sans-serif;
+    font-weight: 500;
+    letter-spacing: .1em;
+    font-size: 12px;
+    line-height: 54px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+
+    border: 0px;
+    margin-top: 30px;
+}
