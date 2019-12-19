@@ -53,6 +53,7 @@ a {
 
 .header-top {
     padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-nav__item:not(:first-of-type) {
@@ -635,4 +636,45 @@ button {
     list-style-type: none;
     height: 100px;
     max-width: 250px;
+}
+
+
+/* SECOND PAGE */
+/* PAGE NAME'S - HOME */
+
+.home-page__inner {
+    background-color: #ffffff;
+}
+
+.design {
+    background-color: #f6f6f6;
+}
+
+/* grid */
+.grid-background__home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+}
+
+.grid-item__home {
+    background-color: #dddddd;
+}
+
+.grid-item__home:nth-child(3),
+.grid-item__home:nth-child(11),
+.grid-item__home:nth-child(9),
+.grid-item__home:first-child,
+.grid-item__home:nth-child(8) {
+    background-color: #838383;
+}
+
+.grid-item__home:nth-child(6) {
+    background-color: #21bfb9;
+}
+
+.grid-item__home:nth-child(6) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
