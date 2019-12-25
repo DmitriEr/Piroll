@@ -49,11 +49,23 @@ a {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-} 
+}  
+
+/* .header-top {
+    width: 1170px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+} */
 
 .header-top {
     padding-top: 24px;
     padding-bottom: 24px;
+/* 
+    position: fixed;  */
 }
 
 .header-nav__item:not(:first-of-type) {
@@ -638,16 +650,18 @@ button {
     max-width: 250px;
 }
 
-
+/* =================================== */
 /* SECOND PAGE */
 /* PAGE NAME'S - HOME */
-
+/* ===================================== */
 .home-page__inner {
     background-color: #ffffff;
 }
 
 .design {
     background-color: #f6f6f6;
+
+    padding-top: 100px;
 }
 
 /* grid */
