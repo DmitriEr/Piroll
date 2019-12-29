@@ -1175,6 +1175,30 @@ about-us -page#2
     grid-template-rows: 100px 200px 100px;
 }
 
+/* ===================
+project
+========================*/
+
+.project-page {
+    background: #f6f6f6;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.project-page__title {
+    line-height: 40px;
+}
+
+.direction-block {
+    padding: 20px 0px;
+}
+
+.direction-item__button {
+    line-height: 20px;
+    margin: 0px;
+}
 
 }
 
